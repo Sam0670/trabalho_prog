@@ -18,14 +18,16 @@ string datas d1 e d2 (ex: 2020-07-10 2020-08-10)
 
 			Funcoes
 
-abrir arquivo .csv no modo apenas leitura [com funcao]
+abrir arquivo .csv no modo apenas leitura [com funcao]✓
 
-verificar se o arquivo esta vazio
+verificar se o arquivo esta vazio✓
 ler arquivo .csv
 	ignorar a primeira linha - linha dos nomes de cada dado - (ate o \n)
 	começar a ler e registrar a partir da segunda linha
 
-criar struct para pacientes e salvar seus dados em atributos do struct
+criar struct para pacientes✓
+	salvar seus dados em atributos do struct
+
 construir base de dados com dados coletados
 
 registrar:
@@ -58,7 +60,7 @@ contabilizar casos especificos [com funcoes]
 	converter strings de entrada para maiusculo [com funcao]
 	determinar media e desvio padrao da idade das pessoas que morreram e percentual de pessoas que morreram e não possuíam nenhuma comorbidade entre d1 e d2 [com funcao]
 
-fechar arquivo .csv com funcao (ler apenas uma vez)
+fechar arquivo .csv com funcao (ler apenas uma vez)✓
 
 
 			Output
