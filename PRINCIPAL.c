@@ -65,6 +65,11 @@ int main()
 
 		while (! feof(arq)) // enquanto arquivo nao chega ao fim...
 		{
+			if (feof(arq)) // evitar que o while seja executado mesmo quando o arquivo terminar (EOF)
+			{
+				break;
+			}
+
 			char charac = fgetc(arq); // ler caractere
 
 			int i = 0;
